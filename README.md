@@ -10,7 +10,8 @@ HIFINI音乐磁场自动签到
 7. 由于规则更新,同步后会默认禁用,请手动点击Actions 选择要签到的项目 `enable workflows`激活
 8. [定时执行](#定时执行) (如修改了执行时间 请关闭同步源仓库  否则同步时会覆盖)
 # COOIKIE添加格式
-COOKIE	登录网站(www.hifini.com)	F12控制台执行console.log(document.cookie)
+| 名称               | 内容                      | 说明                                                                                                         |
+| COOKIE             | [HIFINI网站](www.hifini.com)COOKIE                      | F12控制台执行`console.log(document.cookie)`                                                                                                        |
 
 [设置相关Secrets](Secrets.md)
 
