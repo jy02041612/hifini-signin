@@ -6,6 +6,8 @@ on:
             - master
     schedule:
         - cron: '30 13 * * *'
+    watch:
+        types: [started]
 env:
     TZ: Asia/Shanghai
 
