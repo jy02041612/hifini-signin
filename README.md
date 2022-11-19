@@ -9,6 +9,8 @@ HIFINI音乐磁场自动签到
 6. **必须** - 请随便找个文件(例如`README.md`)，加个空格提交一下，否则可能会出现无法定时执行的问题
 7. 由于规则更新,同步后会默认禁用,请手动点击Actions 选择要签到的项目 `enable workflows`激活
 8. [定时执行](#定时执行) (如修改了执行时间 请关闭同步源仓库  否则同步时会覆盖)
+# COOIKIE添加格式
+COOKIE	登录网站(www.hifini.com)	F12控制台执行console.log(document.cookie)
 
 [设置相关Secrets](Secrets.md)
 
