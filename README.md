@@ -2,9 +2,9 @@
 HIFINI音乐磁场自动签到
 
 # 使用方式
-1. [新建仓库并同步代码]
+1. 新建仓库并同步代码
 2. 点击Settings -> Secrets -> 点击绿色按钮 (如无绿色按钮说明已激活。直接到下一步。)
-3. 新增 new secret 并设置 [Secrets](Secrets.md):
+3. 新增 new secret 并设置Secrets
 4. 双击右上角自己仓库Star触发
 6. **必须** - 请随便找个文件(例如`README.md`)，加个空格提交一下，否则可能会出现无法定时执行的问题
 7. 由于规则更新,同步后会默认禁用,请手动点击Actions 选择要签到的项目 `enable workflows`激活
@@ -15,7 +15,6 @@ HIFINI音乐磁场自动签到
 | `COOKIE`            | [HIFINI网站](www.hifini.com)COOKIE | F12控制台执行`console.log(document.cookie)`                                                                     |
 
 
-[设置相关Secrets](Secrets.md)
 
 # 定时执行
 1. 支持手动执行，具体在Actions中选中要执行的Workflows后再在右侧可以看到Run workflow，点击即可运行此workflow。
